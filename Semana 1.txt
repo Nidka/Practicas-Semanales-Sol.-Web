@@ -36,10 +36,14 @@
                     </ul>
                 </div>
             </div>
-        </nav> <--<!-- Anghelo -->
-        <header></header> <!--Kadin -->
-        <section></section> <--<!-- Jean -->
-        <section></section> <--<!-- Kike -->
-        <section></section> <--<!-- Piero -->
+        </nav> <!-- Anghelo -->
+        <header class="encabezado">
+            <h1>Bienvenidos a mi sitio web</h1>
+            <p>Desarrollador Web apasionado por crear páginas web</p>
+        </header>
+         <!--Kadin -->
+        <section></section> <!-- Jean -->
+        <section></section> <!-- Kike -->
+        <section></section> <!-- Piero -->
     </body>
 </html>

@@ -40,6 +40,25 @@ nav > div > button{
     background-color: #1c1c1c;
     display: block;
 }
+
+.encabezado {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+    padding: 40px; 
+}
+
+.encabezado h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.encabezado p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+
 /*
 @media (max-width: 768px){
     .opciones a{
