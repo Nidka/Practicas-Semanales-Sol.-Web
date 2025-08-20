@@ -9,10 +9,34 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="mariconada.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
         <title>JSP Page</title>
     </head>
     <body>
-        <nav></nav> <--<!-- Anghelo -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="tma" href="#">Mi sitio web</a>
+                <button class="d-lg-none"
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#menu"
+                        arial-controls="menu" arial-expanded="false" arial-label="Toggle navigation">
+                    <span class="menu"></span>
+                    <span class="menu"></span>
+                    <span class="menu"></span>
+                </button>
+                <div class="opciones collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Sobre mí</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Portafolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav> <--<!-- Anghelo -->
         <header></header> <!--Kadin -->
         <section></section> <--<!-- Jean -->
         <section></section> <--<!-- Kike -->
